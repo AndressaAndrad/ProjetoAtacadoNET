@@ -1,4 +1,4 @@
-﻿namespace AtacadoPOCO.Estoque
+﻿namespace Atacado.POCO.Estoque
 {
     public class CategoriaPOCO
     {

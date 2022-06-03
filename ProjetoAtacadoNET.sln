@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atacado.DAL", "Atacado.DAL\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteAtacadoDAL", "TesteAtacadoDAL\TesteAtacadoDAL.csproj", "{A9836C0B-6B77-41D9-B4D3-DBCD4D0EA449}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtacadoPOCO", "AtacadoPOCO\AtacadoPOCO.csproj", "{07321C8D-E7B9-4FCC-9676-B16197DEEDE4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atacado.POCO", "AtacadoPOCO\Atacado.POCO.csproj", "{07321C8D-E7B9-4FCC-9676-B16197DEEDE4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atacado.Map", "Atacado.Map\Atacado.Map.csproj", "{215E0598-5929-4F8A-9F3A-31EB6933A247}"
 EndProject

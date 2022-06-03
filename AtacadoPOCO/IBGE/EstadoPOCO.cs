@@ -1,4 +1,4 @@
-﻿namespace AtacadoPOCO.IBGE
+﻿namespace Atacado.POCO.IBGE
 {
     public class EstadoPOCO
     {

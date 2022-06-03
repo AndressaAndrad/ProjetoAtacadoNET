@@ -1,5 +1,5 @@
 ﻿using Atacado.Modelo.RH;
-using AtacadoPOCO.RH;
+using Atacado.POCO.RH;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace Atacado.Map.RH
     {
         public static EmpresaPOCO ConverterParaPoco(Empresa modelo)
         {
-
+            throw new NotImplementedException();
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace AtacadoPOCO.RH
+﻿namespace Atacado.POCO.RH
 {
     public class FuncionarioPOCO
     {

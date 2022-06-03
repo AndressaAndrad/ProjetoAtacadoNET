@@ -11,7 +11,7 @@
     <ProjectReference Include="..\Atacado.DAL\Atacado.DAL.csproj" />
     <ProjectReference Include="..\Atacado.Map\Atacado.Map.csproj" />
     <ProjectReference Include="..\Atacado.Modelo\Atacado.Modelo.csproj" />
-    <ProjectReference Include="..\AtacadoPOCO\AtacadoPOCO.csproj" />
+    <ProjectReference Include="..\AtacadoPOCO\Atacado.POCO.csproj" />
   </ItemGroup>
 
 </Project>

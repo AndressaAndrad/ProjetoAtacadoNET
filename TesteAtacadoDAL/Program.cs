@@ -6,6 +6,7 @@ using Atacado.DAL.Estoque;
 using Atacado.Modelo.Estoque;
 using Atacado.DAL.RH;
 using Atacado.DAL.IBGE;
+using Atacado.DAL.RH.Admin;
 
 namespace TesteAtacadoDAL
 {
@@ -55,7 +56,7 @@ namespace TesteAtacadoDAL
         { 
             MunicipioDAO dao = new MunicipioDAO();
             Municipio cat = dao.Read(cod);  
-            ImprimirMUnicipio(cat);
+            //ImprimirMunicipio(cat);
         }
         
     }   

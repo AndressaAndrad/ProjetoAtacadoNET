@@ -1,7 +1,7 @@
 ﻿using Atacado.DAL.Estoque;
 using Atacado.Map.Estoque;
 using Atacado.Modelo.Estoque;
-using AtacadoPOCO.Estoque;
+using Atacado.POCO.Estoque;
 
 namespace TesteAtacadoMap
 {

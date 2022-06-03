@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Atacado.FakeDB\Atacado.FakeDB.csproj" />
+    <ProjectReference Include="..\Atacado.Modelo\Atacado.Modelo.csproj" />
+  </ItemGroup>
+
+</Project>

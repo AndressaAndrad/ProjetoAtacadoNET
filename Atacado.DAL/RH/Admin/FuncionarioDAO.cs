@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Atacado.DAL.RH
+namespace Atacado.DAL.RH.Admin
 {
     public class FuncionarioDAO : BaseAncestralDAO<Funcionario>
     {

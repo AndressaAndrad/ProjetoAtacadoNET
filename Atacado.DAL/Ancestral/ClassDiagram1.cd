@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Atacado.DAL.Ancestral.BaseAncestralDAO&lt;T&gt;">
+    <Position X="0.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAQAAAAAAAAAAAgAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ancestral\BaseAncestralDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Atacado.DAL.Ancestral.IActionCreateDAO&lt;T&gt;">
+    <Position X="3" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ancestral\IActionCreateDAO.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Atacado.DAL.Ancestral.IActionReadDAO&lt;T&gt;">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ancestral\IActionReadDAO.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Atacado.DAL.Ancestral.IActionUpdateDAO&lt;T&gt;">
+    <Position X="9.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ancestral\IActionUpdateDAO.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Atacado.DAL.Ancestral.IActionDeleteDAO&lt;T&gt;">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ancestral\IActionDeleteDAO.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Atacado.DAL.Ancestral.IAncestralDAO&lt;T&gt;">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ancestral\IAncestralDAO.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

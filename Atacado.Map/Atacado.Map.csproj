@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Atacado.FakeDB\Atacado.FakeDB.csproj" />
     <ProjectReference Include="..\Atacado.Modelo\Atacado.Modelo.csproj" />
+    <ProjectReference Include="..\AtacadoPOCO\AtacadoPOCO.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Teste\" />
+    <Folder Include="IBGE\" />
   </ItemGroup>
 
 </Project>

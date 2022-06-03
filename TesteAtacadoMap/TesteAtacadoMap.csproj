@@ -1,18 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Atacado.FakeDB\Atacado.FakeDB.csproj" />
+    <ProjectReference Include="..\Atacado.DAL\Atacado.DAL.csproj" />
+    <ProjectReference Include="..\Atacado.Map\Atacado.Map.csproj" />
     <ProjectReference Include="..\Atacado.Modelo\Atacado.Modelo.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Teste\" />
+    <ProjectReference Include="..\AtacadoPOCO\AtacadoPOCO.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Atacado.Service.Estoque.SubcategoriaService" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAEAAAAIEAABABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estoque\SubcategoriaService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Atacado.Service.Estoque.ProdutoService" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAEAAAAIEAABABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estoque\ProdutoService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Atacado.Service.Estoque.CategoriaService" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAEAAAAIEAABABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estoque\CategoriaService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.158" />
+  </Class>
+  <Interface Name="Atacado.Service.Ancestral.IAcaoAdicionarSrv&lt;T&gt;">
+    <Position X="0.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ancestral\IAcaoAdicionarSrv.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Atacado.Service.Ancestral.IAcaoAlterarSrv&lt;T&gt;">
+    <Position X="3.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ancestral\IAcaoAlterarSrv.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Atacado.Service.Ancestral.IAcaoExcluirSrv&lt;T&gt;">
+    <Position X="6.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ancestral\IAcaoExcluirSrv.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Atacado.Service.Ancestral.IAcaoListarSrv&lt;T&gt;">
+    <Position X="1.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ancestral\IAcaoListarSrv.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Atacado.Service.Ancestral.IAcaoSelecionarSrv&lt;T&gt;">
+    <Position X="4.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ancestral\IAcaoSelecionarSrv.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -8,4 +8,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Atacado.Service\Atacado.Service.csproj" />
+    <ProjectReference Include="..\TesteAtacadoDAL\TesteAtacadoDAL.csproj" />
+  </ItemGroup>
+
 </Project>

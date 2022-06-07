@@ -11,7 +11,7 @@
         public int Idade { get; set; }
         public double Altura { get; set; }
         public double Peso { get; set; }
-        DateTime DtNascimento { get; set; }
+        public DateTime DtNascimento { get; set; }
         public string Naturalidade { get; set; }
         public string Nacionalidade { get; set; }
         public string Sexo { get; set; }

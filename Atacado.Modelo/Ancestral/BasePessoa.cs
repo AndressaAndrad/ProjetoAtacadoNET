@@ -1,11 +1,11 @@
-﻿using Atacado.Modelo.RH;
+﻿using Atacado.Domain.RH;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Atacado.Modelo.Ancestral
+namespace Atacado.Domain.Ancestral
 {
     public abstract class BasePessoa : BaseCampoPadronizado
     {

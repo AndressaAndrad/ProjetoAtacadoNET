@@ -1,5 +1,5 @@
 ﻿using Atacado.FakeDB.RH;
-using Atacado.Modelo.RH;
+using Atacado.Domain.RH;
 using DesafiosDaGripe01;
 using System;
 using System.Collections.Generic;

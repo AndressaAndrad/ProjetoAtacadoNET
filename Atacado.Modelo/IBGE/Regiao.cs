@@ -1,11 +1,11 @@
-﻿using Atacado.Modelo.Ancestral;
+﻿using Atacado.Domain.Ancestral;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Atacado.Modelo.IBGE
+namespace Atacado.Domain.IBGE
 {
     public class Regiao : BaseCampoPadronizado02
     {

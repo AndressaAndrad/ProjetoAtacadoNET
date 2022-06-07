@@ -1,6 +1,6 @@
 ﻿using Atacado.DAL.Ancestral;
+using Atacado.Domain.IBGE;
 using Atacado.FakeDB.IBGE;
-using Atacado.Modelo.IBGE;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,7 +26,7 @@ namespace Atacado.DAL.IBGE
             return obj;
         }
 
-        public override List<Estado> ReadALL()
+        public override List<Estado> ReadAll()
         {
             return EstadoFakeFB.Estados;
         }

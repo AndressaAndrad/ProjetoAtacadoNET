@@ -1,6 +1,6 @@
 ﻿using Atacado.DAL.Ancestral;
 using Atacado.FakeDB.RH;
-using Atacado.Modelo.RH;
+using Atacado.Domain.RH;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +25,7 @@ namespace Atacado.DAL.RH.Admin
             return obj;
         }
 
-        public override List<Funcionario> ReadALL()
+        public override List<Funcionario> ReadAll()
         {
             return FuncionarioFakeDB.Funcionarios;
         }

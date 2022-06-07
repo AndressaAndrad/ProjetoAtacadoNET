@@ -1,6 +1,6 @@
 ﻿using Atacado.DAL.Ancestral;
+using Atacado.Domain.IBGE;
 using Atacado.FakeDB.IBGE;
-using Atacado.Modelo.IBGE;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +25,7 @@ namespace Atacado.DAL.IBGE
             return obj;
         }
 
-        public override List<Regiao> ReadALL()
+        public override List<Regiao> ReadAll()
         {
             return RegiaoFakeDB.Regioes;
         }

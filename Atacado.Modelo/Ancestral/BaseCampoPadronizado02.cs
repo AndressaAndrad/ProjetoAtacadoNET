@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Atacado.Modelo.Ancestral
+namespace Atacado.Domain.Ancestral
 {
     public abstract class BaseCampoPadronizado02 : BaseCampoPadronizado
     {

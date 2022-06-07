@@ -1,7 +1,7 @@
 ﻿using Atacado.FakeDB.RH;
 using Atacado.FakeDB.IBGE;
-using Atacado.Modelo.IBGE;
-using Atacado.Modelo.RH;
+using Atacado.Domain.IBGE;
+using Atacado.Domain.RH;
 using DesaafioDaGripe01;
 using DesafiosDaGripe01;
 using static DesaafioDaGripe01.ProblemasMatematicos;

@@ -1,6 +1,7 @@
-﻿using Atacado.DAL.Ancestral;
+﻿
+using Atacado.DAL.Ancestral;
 using Atacado.FakeDB.Estoque;
-using Atacado.Modelo.Estoque;
+using Atacado.Domain.Estoque;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,19 +14,18 @@ namespace Atacado.DAL.Estoque
     {
         public override Categoria Create(Categoria obj)
         {
-            int chave = CategoriaFakeDB.Categorias.Max(cat => cat.Codigo) +1;
-            obj.Codigo = chave;
+            int chave = CategoriaFakeDB.Categorias.Max(cat => cat.Codigo) + 1;
             CategoriaFakeDB.Categorias.Add(obj);
             return obj;
         }
 
         public override Categoria Read(int id)
         {
-           Categoria obj = CategoriaFakeDB.Categorias.SingleOrDefault(car => car.Codigo == id);
+            Categoria obj = CategoriaFakeDB.Categorias.FirstOrDefault(cat => cat.Codigo == id);
             return obj;
         }
 
-        public override List<Categoria> ReadALL()
+        public override List<Categoria> ReadAll()
         {
             return CategoriaFakeDB.Categorias;
         }
@@ -37,6 +37,7 @@ namespace Atacado.DAL.Estoque
             alt.Situacao = obj.Situacao;
             return alt;
         }
+
         public override Categoria Delete(int id)
         {
             Categoria del = this.Read(id);
@@ -48,6 +49,5 @@ namespace Atacado.DAL.Estoque
         {
             return this.Delete(obj.Codigo);
         }
-
     }
 }

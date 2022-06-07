@@ -1,6 +1,6 @@
 ﻿using Atacado.DAL.Ancestral;
+using Atacado.Domain.Estoque;
 using Atacado.FakeDB.Estoque;
-using Atacado.Modelo.Estoque;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +25,7 @@ namespace Atacado.DAL.Estoque
             return obj;
         }
 
-        public override List<Subcategoria> ReadALL()
+        public override List<Subcategoria> ReadAll()
         {
             return SubcategoriaFakeDB.Subcategorias;
         }

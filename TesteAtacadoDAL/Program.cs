@@ -1,9 +1,9 @@
 ﻿using Atacado.FakeDB.RH;
 using Atacado.FakeDB.IBGE;
-using Atacado.Modelo.IBGE;
-using Atacado.Modelo.RH;
+using Atacado.Domain.IBGE;
+using Atacado.Domain.RH;
 using Atacado.DAL.Estoque;
-using Atacado.Modelo.Estoque;
+using Atacado.Domain.Estoque;
 using Atacado.DAL.RH;
 using Atacado.DAL.IBGE;
 using Atacado.DAL.RH.Admin;

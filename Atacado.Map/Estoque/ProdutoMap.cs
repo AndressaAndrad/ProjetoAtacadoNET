@@ -1,4 +1,4 @@
-﻿using Atacado.Modelo.Estoque;
+﻿using Atacado.Domain.Estoque;
 using Atacado.POCO.Estoque;
 using System;
 using System.Collections.Generic;
@@ -10,18 +10,18 @@ namespace Atacado.Map.Estoque
 {
     public static class ProdutoMap
     {
-        public static ProdutoPOCO ConverterParaPoco(Produto modelo)
+        public static ProdutoPOCO ConverterParaPoco(Produto domain)
         {
             ProdutoPOCO poco = new ProdutoPOCO();
-            poco.Codigo = modelo.Codigo;
-            poco.CodigoCategoria = modelo.CodigoCategoria;
-            poco.CodigoSubcategoria = modelo.CodigoSubcategoria;
-            poco.Descricao = modelo.Descricao;
-            poco.Situacao = modelo.Situacao;
+            poco.Codigo = domain.Codigo;
+            poco.CodigoCategoria = domain.CodigoCategoria;
+            poco.CodigoSubcategoria = domain.CodigoSubcategoria;
+            poco.Descricao = domain.Descricao;
+            poco.Situacao = domain.Situacao;
             return poco;
         }
 
-        public static Produto ConverterParaModelo(ProdutoPOCO poco)
+        public static Produto ConverterParaDomain(ProdutoPOCO poco)
         {
             return new Produto(poco.Codigo, poco.CodigoCategoria, poco.CodigoSubcategoria, 
                 poco.Descricao, poco.Situacao);

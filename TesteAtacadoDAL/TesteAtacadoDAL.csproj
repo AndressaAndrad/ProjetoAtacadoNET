@@ -10,7 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Atacado.DAL\Atacado.DAL.csproj" />
     <ProjectReference Include="..\Atacado.FakeDB\Atacado.FakeDB.csproj" />
-    <ProjectReference Include="..\Atacado.Modelo\Atacado.Modelo.csproj" />
+    <ProjectReference Include="..\Atacado.Modelo\Atacado.Domain.csproj" />
   </ItemGroup>
 
 </Project>

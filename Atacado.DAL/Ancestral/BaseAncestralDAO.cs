@@ -14,7 +14,7 @@ namespace Atacado.DAL.Ancestral
         public abstract T Read(int id);
 
 
-        public abstract List<T> ReadALL();
+        public abstract List<T> ReadAll();
 
         public abstract T Update(T obj);
 

@@ -34,7 +34,7 @@ namespace AtacadoWinApp
             FuncionarioService srv = new FuncionarioService();
             if (srv.Validar(poco) == false)
             {
-                string mensagem = srv.MensagensDeErro.Aggregate((x, y) => x + ";" + y);
+                string mensagem = srv.MensagensDeErro.Aggregate((x, y) => x + ";\n" + y);
                 MessageBox.Show(mensagem, "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 
             }

@@ -3,9 +3,9 @@ using Atacado.Service.RH;
 
 namespace AtacadoWinApp
 {
-    public partial class form1 : Form
+    public partial class PrincipalFrm : Form
     {
-        public form1()
+        public PrincipalFrm()
         {
             InitializeComponent();
         }
@@ -24,27 +24,38 @@ namespace AtacadoWinApp
             this.Close();
         }
 
-        private void ValidarBtn_Click(object sender, EventArgs e)
-        {
-            FuncionarioPOCO poco = new FuncionarioPOCO()
-            {
-                Cpf = CpfTxt.Text
-            };
+        //private void ValidarBtn_Click(object sender, EventArgs e)
+        //{
+        //    FuncionarioPOCO poco = new FuncionarioPOCO()
+        //    {
+        //        Cpf = CpfTxt.Text
+        //    };
 
-            FuncionarioService srv = new FuncionarioService();
-            if (srv.Validar(poco) == false)
-            {
-                string mensagem = srv.MensagensDeErro.Aggregate((x, y) => x + ";\n" + y);
-                MessageBox.Show(mensagem, "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //    FuncionarioService srv = new FuncionarioService();
+        //    if (srv.Validar(poco) == false)
+        //    {
+        //        string mensagem = srv.MensagensDeErro.Aggregate((x, y) => x + ";\n" + y);
+        //        MessageBox.Show(mensagem, "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 
-            }
-            else
-            {
-                string mensagem = "CPF Válido.";
-                MessageBox.Show(mensagem, "SUCESSO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //    }
+        //    else
+        //    {
+        //        string mensagem = "CPF Válido.";
+        //        MessageBox.Show(mensagem, "SUCESSO", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 
-            }
-            return;
+        //    }
+        //    return;
+        //}
+
+        private void form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AdicionarFuncionarioMenuItem_Click(object sender, EventArgs e)
+        {
+            AdicionarFuncionariosFrm frm = new AdicionarFuncionariosFrm();
+            frm.ShowDialog();
         }
     }
 }

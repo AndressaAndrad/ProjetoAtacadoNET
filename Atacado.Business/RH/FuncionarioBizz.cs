@@ -73,11 +73,11 @@ namespace Atacado.Business.RH
 				resultado = false;
 			}
 
-			if (this.ValidarIdadeVazio(funcionario.Idade) == false)
-			{
-				this.mensagens.Add("- Idade não pode ser vazia.");
-				resultado = false;
-			}
+			//if (this.ValidarIdadeVazio(funcionario.Idade) == false)
+			//{
+			//	this.mensagens.Add("- Idade não pode ser vazia.");
+			//	resultado = false;
+			//}
 
 			if (this.ValidarDtNascimento(funcionario.DtNascimento) == false)
 			{

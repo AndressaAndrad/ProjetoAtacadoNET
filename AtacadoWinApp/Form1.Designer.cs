@@ -1,6 +1,6 @@
 ﻿namespace AtacadoWinApp
 {
-    partial class form1
+    partial class PrincipalFrm
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,14 +30,16 @@
         {
             this.OiMundoBtn = new System.Windows.Forms.Button();
             this.FecharBtn = new System.Windows.Forms.Button();
-            this.CpfLbl = new System.Windows.Forms.Label();
-            this.CpfTxt = new System.Windows.Forms.TextBox();
-            this.ValidarBtn = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.ArquivoMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.FuncionariosMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.AdicionarFuncionarioMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // OiMundoBtn
             // 
-            this.OiMundoBtn.Location = new System.Drawing.Point(12, 12);
+            this.OiMundoBtn.Location = new System.Drawing.Point(21, 468);
             this.OiMundoBtn.Name = "OiMundoBtn";
             this.OiMundoBtn.Size = new System.Drawing.Size(103, 24);
             this.OiMundoBtn.TabIndex = 0;
@@ -55,45 +57,52 @@
             this.FecharBtn.UseVisualStyleBackColor = true;
             this.FecharBtn.Click += new System.EventHandler(this.FecharBtn_Click);
             // 
-            // CpfLbl
+            // menuStrip1
             // 
-            this.CpfLbl.AutoSize = true;
-            this.CpfLbl.Location = new System.Drawing.Point(21, 112);
-            this.CpfLbl.Name = "CpfLbl";
-            this.CpfLbl.Size = new System.Drawing.Size(94, 15);
-            this.CpfLbl.TabIndex = 2;
-            this.CpfLbl.Text = "CPF Funcionário";
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ArquivoMenuItem1});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(847, 24);
+            this.menuStrip1.TabIndex = 2;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // CpfTxt
+            // ArquivoMenuItem1
             // 
-            this.CpfTxt.Location = new System.Drawing.Point(121, 109);
-            this.CpfTxt.Name = "CpfTxt";
-            this.CpfTxt.Size = new System.Drawing.Size(150, 23);
-            this.CpfTxt.TabIndex = 3;
-            
+            this.ArquivoMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.FuncionariosMenuItem});
+            this.ArquivoMenuItem1.Name = "ArquivoMenuItem1";
+            this.ArquivoMenuItem1.Size = new System.Drawing.Size(61, 20);
+            this.ArquivoMenuItem1.Text = "Arquivo";
             // 
-            // ValidarBtn
+            // FuncionariosMenuItem
             // 
-            this.ValidarBtn.Location = new System.Drawing.Point(196, 138);
-            this.ValidarBtn.Name = "ValidarBtn";
-            this.ValidarBtn.Size = new System.Drawing.Size(75, 23);
-            this.ValidarBtn.TabIndex = 4;
-            this.ValidarBtn.Text = "Validar";
-            this.ValidarBtn.UseVisualStyleBackColor = true;
-            this.ValidarBtn.Click += new System.EventHandler(this.ValidarBtn_Click);
+            this.FuncionariosMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.AdicionarFuncionarioMenuItem});
+            this.FuncionariosMenuItem.Name = "FuncionariosMenuItem";
+            this.FuncionariosMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.FuncionariosMenuItem.Text = "Funcionários";
             // 
-            // form1
+            // AdicionarFuncionarioMenuItem
+            // 
+            this.AdicionarFuncionarioMenuItem.Name = "AdicionarFuncionarioMenuItem";
+            this.AdicionarFuncionarioMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.AdicionarFuncionarioMenuItem.Text = "Adicionar";
+            this.AdicionarFuncionarioMenuItem.Click += new System.EventHandler(this.AdicionarFuncionarioMenuItem_Click);
+            // 
+            // PrincipalFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(847, 504);
-            this.Controls.Add(this.ValidarBtn);
-            this.Controls.Add(this.CpfTxt);
-            this.Controls.Add(this.CpfLbl);
             this.Controls.Add(this.FecharBtn);
             this.Controls.Add(this.OiMundoBtn);
-            this.Name = "form1";
+            this.Controls.Add(this.menuStrip1);
+            this.Name = "PrincipalFrm";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.form1_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -103,8 +112,9 @@
 
         private Button OiMundoBtn;
         private Button FecharBtn;
-        private Label CpfLbl;
-        private TextBox CpfTxt;
-        private Button ValidarBtn;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem ArquivoMenuItem1;
+        private ToolStripMenuItem FuncionariosMenuItem;
+        private ToolStripMenuItem AdicionarFuncionarioMenuItem;
     }
 }

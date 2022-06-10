@@ -34,6 +34,8 @@
             this.ArquivoMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.FuncionariosMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AdicionarFuncionarioMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.empresasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adicionarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,7 +72,8 @@
             // ArquivoMenuItem1
             // 
             this.ArquivoMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.FuncionariosMenuItem});
+            this.FuncionariosMenuItem,
+            this.empresasToolStripMenuItem});
             this.ArquivoMenuItem1.Name = "ArquivoMenuItem1";
             this.ArquivoMenuItem1.Size = new System.Drawing.Size(61, 20);
             this.ArquivoMenuItem1.Text = "Arquivo";
@@ -86,9 +89,24 @@
             // AdicionarFuncionarioMenuItem
             // 
             this.AdicionarFuncionarioMenuItem.Name = "AdicionarFuncionarioMenuItem";
-            this.AdicionarFuncionarioMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.AdicionarFuncionarioMenuItem.Size = new System.Drawing.Size(125, 22);
             this.AdicionarFuncionarioMenuItem.Text = "Adicionar";
             this.AdicionarFuncionarioMenuItem.Click += new System.EventHandler(this.AdicionarFuncionarioMenuItem_Click);
+            // 
+            // empresasToolStripMenuItem
+            // 
+            this.empresasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adicionarToolStripMenuItem});
+            this.empresasToolStripMenuItem.Name = "empresasToolStripMenuItem";
+            this.empresasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.empresasToolStripMenuItem.Text = "Empresas";
+            // 
+            // adicionarToolStripMenuItem
+            // 
+            this.adicionarToolStripMenuItem.Name = "adicionarToolStripMenuItem";
+            this.adicionarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.adicionarToolStripMenuItem.Text = "Adicionar";
+            this.adicionarToolStripMenuItem.Click += new System.EventHandler(this.adicionarToolStripMenuItem_Click);
             // 
             // PrincipalFrm
             // 
@@ -116,5 +134,7 @@
         private ToolStripMenuItem ArquivoMenuItem1;
         private ToolStripMenuItem FuncionariosMenuItem;
         private ToolStripMenuItem AdicionarFuncionarioMenuItem;
+        private ToolStripMenuItem empresasToolStripMenuItem;
+        private ToolStripMenuItem adicionarToolStripMenuItem;
     }
 }

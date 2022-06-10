@@ -202,6 +202,7 @@
             this.NomeTxt.Name = "NomeTxt";
             this.NomeTxt.Size = new System.Drawing.Size(200, 23);
             this.NomeTxt.TabIndex = 16;
+            this.NomeTxt.TextChanged += new System.EventHandler(this.NomeTxt_TextChanged);
             // 
             // SobrenomeText
             // 

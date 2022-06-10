@@ -1,5 +1,6 @@
 using Atacado.POCO.RH;
 using Atacado.Service.RH;
+using AtacadoWinApp.RH;
 
 namespace AtacadoWinApp
 {
@@ -55,6 +56,12 @@ namespace AtacadoWinApp
         private void AdicionarFuncionarioMenuItem_Click(object sender, EventArgs e)
         {
             AdicionarFuncionariosFrm frm = new AdicionarFuncionariosFrm();
+            frm.ShowDialog();
+        }
+
+        private void adicionarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AdicionarEmpresaFrm frm = new AdicionarEmpresaFrm();
             frm.ShowDialog();
         }
     }

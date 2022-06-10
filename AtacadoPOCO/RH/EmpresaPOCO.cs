@@ -9,6 +9,6 @@
          public string RazaoSocial { get; set; }
          public string NomeFantasia { get; set; }
          public string Cnpj { get; set; }
-         public string inscricaoEstadual { get; set; }
+         public string InscricaoEstadual { get; set; }
     }
 }

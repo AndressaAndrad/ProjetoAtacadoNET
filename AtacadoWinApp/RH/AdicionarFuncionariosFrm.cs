@@ -76,5 +76,10 @@ namespace AtacadoWinApp
 
             SexoCmb.SelectedIndex = 0;
         }
+
+        private void NomeTxt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

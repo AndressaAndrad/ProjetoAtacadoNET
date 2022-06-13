@@ -49,7 +49,7 @@
             // CnpjLbl
             // 
             this.CnpjLbl.AutoSize = true;
-            this.CnpjLbl.Location = new System.Drawing.Point(82, 33);
+            this.CnpjLbl.Location = new System.Drawing.Point(99, 61);
             this.CnpjLbl.Name = "CnpjLbl";
             this.CnpjLbl.Size = new System.Drawing.Size(40, 15);
             this.CnpjLbl.TabIndex = 0;
@@ -59,7 +59,7 @@
             // InscricaoEstadualLbl
             // 
             this.InscricaoEstadualLbl.AutoSize = true;
-            this.InscricaoEstadualLbl.Location = new System.Drawing.Point(26, 62);
+            this.InscricaoEstadualLbl.Location = new System.Drawing.Point(43, 90);
             this.InscricaoEstadualLbl.Name = "InscricaoEstadualLbl";
             this.InscricaoEstadualLbl.Size = new System.Drawing.Size(107, 15);
             this.InscricaoEstadualLbl.TabIndex = 1;
@@ -68,7 +68,7 @@
             // EmailLbl
             // 
             this.EmailLbl.AutoSize = true;
-            this.EmailLbl.Location = new System.Drawing.Point(78, 91);
+            this.EmailLbl.Location = new System.Drawing.Point(95, 119);
             this.EmailLbl.Name = "EmailLbl";
             this.EmailLbl.Size = new System.Drawing.Size(44, 15);
             this.EmailLbl.TabIndex = 2;
@@ -77,7 +77,7 @@
             // RazaoSocialLbl
             // 
             this.RazaoSocialLbl.AutoSize = true;
-            this.RazaoSocialLbl.Location = new System.Drawing.Point(44, 120);
+            this.RazaoSocialLbl.Location = new System.Drawing.Point(61, 148);
             this.RazaoSocialLbl.Name = "RazaoSocialLbl";
             this.RazaoSocialLbl.Size = new System.Drawing.Size(78, 15);
             this.RazaoSocialLbl.TabIndex = 3;
@@ -86,7 +86,7 @@
             // NomeFantasiaLbl
             // 
             this.NomeFantasiaLbl.AutoSize = true;
-            this.NomeFantasiaLbl.Location = new System.Drawing.Point(30, 149);
+            this.NomeFantasiaLbl.Location = new System.Drawing.Point(47, 177);
             this.NomeFantasiaLbl.Name = "NomeFantasiaLbl";
             this.NomeFantasiaLbl.Size = new System.Drawing.Size(92, 15);
             this.NomeFantasiaLbl.TabIndex = 4;
@@ -95,7 +95,7 @@
             // TelefoneLbl
             // 
             this.TelefoneLbl.AutoSize = true;
-            this.TelefoneLbl.Location = new System.Drawing.Point(63, 178);
+            this.TelefoneLbl.Location = new System.Drawing.Point(80, 206);
             this.TelefoneLbl.Name = "TelefoneLbl";
             this.TelefoneLbl.Size = new System.Drawing.Size(57, 15);
             this.TelefoneLbl.TabIndex = 5;
@@ -104,7 +104,7 @@
             // EnderecoLbl
             // 
             this.EnderecoLbl.AutoSize = true;
-            this.EnderecoLbl.Location = new System.Drawing.Point(63, 207);
+            this.EnderecoLbl.Location = new System.Drawing.Point(80, 235);
             this.EnderecoLbl.Name = "EnderecoLbl";
             this.EnderecoLbl.Size = new System.Drawing.Size(62, 15);
             this.EnderecoLbl.TabIndex = 6;
@@ -112,56 +112,56 @@
             // 
             // CnpjTxt
             // 
-            this.CnpjTxt.Location = new System.Drawing.Point(128, 25);
+            this.CnpjTxt.Location = new System.Drawing.Point(145, 53);
             this.CnpjTxt.Name = "CnpjTxt";
             this.CnpjTxt.Size = new System.Drawing.Size(177, 23);
             this.CnpjTxt.TabIndex = 7;
             // 
             // InscricaoEstadualTxt
             // 
-            this.InscricaoEstadualTxt.Location = new System.Drawing.Point(128, 54);
+            this.InscricaoEstadualTxt.Location = new System.Drawing.Point(145, 82);
             this.InscricaoEstadualTxt.Name = "InscricaoEstadualTxt";
             this.InscricaoEstadualTxt.Size = new System.Drawing.Size(177, 23);
             this.InscricaoEstadualTxt.TabIndex = 8;
             // 
             // EmailTxt
             // 
-            this.EmailTxt.Location = new System.Drawing.Point(128, 83);
+            this.EmailTxt.Location = new System.Drawing.Point(145, 111);
             this.EmailTxt.Name = "EmailTxt";
             this.EmailTxt.Size = new System.Drawing.Size(177, 23);
             this.EmailTxt.TabIndex = 9;
             // 
             // NomeFantasiaTxt
             // 
-            this.NomeFantasiaTxt.Location = new System.Drawing.Point(128, 141);
+            this.NomeFantasiaTxt.Location = new System.Drawing.Point(145, 169);
             this.NomeFantasiaTxt.Name = "NomeFantasiaTxt";
             this.NomeFantasiaTxt.Size = new System.Drawing.Size(177, 23);
             this.NomeFantasiaTxt.TabIndex = 10;
             // 
             // EnderecoTxt
             // 
-            this.EnderecoTxt.Location = new System.Drawing.Point(128, 199);
+            this.EnderecoTxt.Location = new System.Drawing.Point(145, 227);
             this.EnderecoTxt.Name = "EnderecoTxt";
             this.EnderecoTxt.Size = new System.Drawing.Size(177, 23);
             this.EnderecoTxt.TabIndex = 11;
             // 
             // RazaoSocialTxt
             // 
-            this.RazaoSocialTxt.Location = new System.Drawing.Point(128, 112);
+            this.RazaoSocialTxt.Location = new System.Drawing.Point(145, 140);
             this.RazaoSocialTxt.Name = "RazaoSocialTxt";
             this.RazaoSocialTxt.Size = new System.Drawing.Size(177, 23);
             this.RazaoSocialTxt.TabIndex = 12;
             // 
             // TelefoneTxt
             // 
-            this.TelefoneTxt.Location = new System.Drawing.Point(128, 170);
+            this.TelefoneTxt.Location = new System.Drawing.Point(145, 198);
             this.TelefoneTxt.Name = "TelefoneTxt";
             this.TelefoneTxt.Size = new System.Drawing.Size(100, 23);
             this.TelefoneTxt.TabIndex = 13;
             // 
             // SalvarBtn
             // 
-            this.SalvarBtn.Location = new System.Drawing.Point(713, 369);
+            this.SalvarBtn.Location = new System.Drawing.Point(713, 386);
             this.SalvarBtn.Name = "SalvarBtn";
             this.SalvarBtn.Size = new System.Drawing.Size(75, 23);
             this.SalvarBtn.TabIndex = 14;

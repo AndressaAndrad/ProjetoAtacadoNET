@@ -53,7 +53,7 @@ namespace AtacadoWinApp.RH
             }
             else
             {
-                string mensagem = "Obrigado.";
+                string mensagem = "Cadastro Realizado com Sucesso!!!.";
                 MessageBox.Show(mensagem, "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             return;
